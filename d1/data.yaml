@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['1-2-helmet', '3-4-helmet', 'Bald', 'Cap', 'Face and Hair', 'Full-face-helmet']
+
+roboflow:
+  workspace: cheese-ttcmr
+  project: helmet-no-helmet-detection
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/cheese-ttcmr/helmet-no-helmet-detection/dataset/1

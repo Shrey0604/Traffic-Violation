@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['number plate']
+
+roboflow:
+  workspace: tvs-zcwmn
+  project: number-plate-xtpue
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tvs-zcwmn/number-plate-xtpue/dataset/1
